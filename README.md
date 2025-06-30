@@ -79,9 +79,9 @@ Tuned dotfiles for terminal-first workflows — fast, minimal, and fully keyboar
 
 ## 📫 Reach me
 
-- ✉️ [Email](mailto:biscuitrescue@pm.me)
-- 📝 [LinkedIn](https://www.linkedin.com/in/biscuitrescue)
-- 🌐 [Blog (soon)](https://biscuitrescue.dev)
+- ✉️ [Email](mailto:karttikeyasinha11@gmail.com)
+- 📝 [LinkedIn](https://www.linkedin.com/in/karttikeya-sinha-247021358)
+- 📸 [Instagram](https://www.instagram.com/aero_zeppelin._)
 
 ---
 
