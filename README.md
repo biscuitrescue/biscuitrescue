@@ -1,6 +1,6 @@
 # 🧠 biscuitrescue
 
-Hi there — I’m Biscuit. I build things close to the metal.
+Hi there — I’m Karttikeya. I build things close to the metal.
 
 I'm a Computer Science undergrad at Thapar Institute with a focus on systems programming, security, and building tools that don't just run — they *matter*. I love tinkering with the lower layers of software: compilers, interpreters, access control systems, and tools that make the developer experience smoother and more secure.
 
@@ -52,22 +52,19 @@ A toy compiler and interpreter that explores expression evaluation with a Rust-i
 ## 📈 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=biscuitrescue&show_icons=true&theme=catppuccin_mocha&hide_border=true" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=biscuitrescue&theme=catppuccin_mocha&hide_border=true" width="48%" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=biscuitrescue&layout=compact&theme=catppuccin_mocha&hide_border=true&exclude_repo=dotfiles,fonts" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=biscuitrescue&show_icons=true&theme=catppuccin_mocha&hide_border=true" width="32%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=biscuitrescue&theme=catppuccin_mocha&hide_border=true" width="32%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=biscuitrescue&layout=compact&theme=catppuccin_mocha&hide_border=true&exclude_repo=dotfiles,wallpapers,fonts" width="32%" />
 </p>
 
 ---
 
 ## 🧠 Currently learning
 
-- Writing secure system daemons and privilege separation
-- How real compilers optimize code (beyond syntax)
-- Designing portable tools for infrastructure and config validation
-- Rewriting tooling and workflows from scratch in Rust, just to understand them better
+- Writing secure system daemons and privilege separation  
+- How real compilers optimize code (beyond syntax)  
+- Designing portable tools for infrastructure and config validation  
+- Rewriting tooling and workflows from scratch in Rust, just to understand them better  
 
 ---
 
@@ -79,6 +76,5 @@ A toy compiler and interpreter that explores expression evaluation with a Rust-i
 
 ---
 
-> “Build the tools you wish someone else had built for you.”
->
+> “Build the tools you wish someone else had built for you.”  
 > — Probably me, debugging at 2AM.
