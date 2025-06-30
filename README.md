@@ -9,26 +9,20 @@ I'm a Computer Science undergrad at Thapar Institute with a focus on systems pro
 ## 🔭 Projects I'm working on
 
 ### 🛡️ [Gatekeep](https://github.com/biscuitrescue/gatekeep)  
-![Rust](https://img.shields.io/badge/-Rust-black?logo=rust&logoColor=white) ![Systemd](https://img.shields.io/badge/-systemd-informational?color=blue)  
-GitHub-style access control for SSH servers. Define `authorized_keys` access in YAML, track changes via Git, and sync with a secure systemd daemon.
+![Rust](https://img.shields.io/badge/-Rust-black?logo=rust&logoColor=white)  
+GitHub-style access control for SSH servers. Define `authorized_keys` in YAML, track changes via Git, and sync via a secure daemon. Built from scratch in Rust.
 
 ---
 
 ### 🌀 [rsvcs](https://github.com/biscuitrescue/rsvcs)  
-![C++](https://img.shields.io/badge/-C++-blue?logo=c%2B%2B&logoColor=white) ![CLI](https://img.shields.io/badge/-CLI-informational?color=grey)  
-A minimal Git-like version control system focused on teaching internals like hashing, trees, and commits.
+![Rust](https://img.shields.io/badge/-Rust-black?logo=rust&logoColor=white) ![CLI](https://img.shields.io/badge/-CLI-informational?color=grey)  
+A minimal Git-like version control system designed to demystify internals like content-addressing, trees, and commit graphs.
 
 ---
 
 ### 🧮 [drag](https://github.com/biscuitrescue/drag)  
 ![C++](https://img.shields.io/badge/-C++-blue?logo=c%2B%2B&logoColor=white) ![Compilers](https://img.shields.io/badge/-Compiler-lightgrey)  
 A toy compiler and interpreter that explores expression evaluation with a Rust-inspired syntax.
-
----
-
-### ⚙️ [dotfiles](https://github.com/biscuitrescue/dotfiles)  
-![Linux](https://img.shields.io/badge/-Linux-black?logo=linux) ![Neovim](https://img.shields.io/badge/-Neovim-57A143?logo=neovim&logoColor=white)  
-Tuned dotfiles for terminal-first workflows — fast, minimal, and fully keyboard-driven.
 
 ---
 
@@ -48,7 +42,7 @@ Tuned dotfiles for terminal-first workflows — fast, minimal, and fully keyboar
 ![Rust](https://img.shields.io/badge/-Rust-black?logo=rust&logoColor=white) ![C++](https://img.shields.io/badge/-C++-blue?logo=c%2B%2B&logoColor=white) ![Python](https://img.shields.io/badge/-Python-yellow?logo=python&logoColor=white)  
 
 **Tools & Platforms:**  
-`Linux` • `Neovim` • `Systemd` • `Clap` • `CMake` • `YAML` • `GitHub Actions`
+`Linux` • `Neovim` • `Clap` • `CMake` • `YAML` • `GitHub Actions`
 
 **Focus Areas:**  
 `Systems Programming` • `Compiler Theory` • `Cybersecurity` • `DevOps` • `Versioned Infrastructure`
@@ -58,12 +52,12 @@ Tuned dotfiles for terminal-first workflows — fast, minimal, and fully keyboar
 ## 📈 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=biscuitrescue&show_icons=true&theme=tokyonight&hide_border=true" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=biscuitrescue&theme=tokyonight&hide_border=true" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=biscuitrescue&show_icons=true&theme=catppuccin_mocha&hide_border=true" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=biscuitrescue&theme=catppuccin_mocha&hide_border=true" width="48%" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=biscuitrescue&layout=compact&theme=tokyonight&hide_border=true" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=biscuitrescue&layout=compact&theme=catppuccin_mocha&hide_border=true&exclude_repo=dotfiles,fonts" width="48%" />
 </p>
 
 ---
@@ -79,9 +73,10 @@ Tuned dotfiles for terminal-first workflows — fast, minimal, and fully keyboar
 
 ## 📫 Reach me
 
-- ✉️ [Email](mailto:karttikeyasinha11@gmail.com)
-- 📝 [LinkedIn](https://www.linkedin.com/in/karttikeya-sinha-247021358)
-- 📸 [Instagram](https://www.instagram.com/aero_zeppelin._)
+- ✉️ [Email](mailto:biscuitrescue@pm.me)
+- 📝 [LinkedIn](https://www.linkedin.com/in/biscuitrescue)
+- 📸 [Instagram](https://www.instagram.com/biscuitrescue)
+- 🌐 [Blog (soon)](https://biscuitrescue.dev)
 
 ---
 
