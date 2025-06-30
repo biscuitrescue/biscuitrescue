@@ -73,10 +73,9 @@ A toy compiler and interpreter that explores expression evaluation with a Rust-i
 
 ## 📫 Reach me
 
-- ✉️ [Email](mailto:biscuitrescue@pm.me)
-- 📝 [LinkedIn](https://www.linkedin.com/in/biscuitrescue)
-- 📸 [Instagram](https://www.instagram.com/biscuitrescue)
-- 🌐 [Blog (soon)](https://biscuitrescue.dev)
+- ✉️ [Email](mailto:karttikeyasinha11@gmail.com)
+- 📝 [LinkedIn](https://www.linkedin.com/in/karttikeya-sinha-247021358)
+- 📸 [Instagram](https://www.instagram.com/aero_zeppelin._)
 
 ---
 
