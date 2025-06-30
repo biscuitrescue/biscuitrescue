@@ -77,4 +77,5 @@ A toy compiler and interpreter that explores expression evaluation with a Rust-i
 ---
 
 > “Build the tools you wish someone else had built for you.”  
-> — Probably me, debugging at 2AM.
+>
+>   ~ Probably me, debugging at 2AM.
