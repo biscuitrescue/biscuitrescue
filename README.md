@@ -35,11 +35,10 @@ A toy compiler and interpreter that explores expression evaluation with a Rust-i
 ---
 
 ## GitHub Stats
-
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=biscuitrescue&show_icons=true&theme=catppuccin_mocha&hide_border=true" width="32%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=biscuitrescue&theme=catppuccin_mocha&hide_border=true" width="32%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=biscuitrescue&layout=compact&theme=catppuccin_mocha&hide_border=true&exclude_repo=dotfiles,wallpapers,fonts" width="32%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=biscuitrescue&show_icons=true&bg_color=161b17&title_color=8eb173&text_color=e1e2d1&icon_color=8eb173&hide_border=true" width="32%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=biscuitrescue&background=161b17&fire=e1e2d1&ring=8eb173&currStreakNum=e1e2d1&sideLabels=8eb173&hide_border=true" width="32%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=biscuitrescue&layout=compact&bg_color=161b17&title_color=8eb173&text_color=e1e2d1&hide_border=true&exclude_repo=dotfiles,wallpapers,fonts" width="32%" />
 </p>
 
 ---
@@ -55,6 +54,6 @@ A toy compiler and interpreter that explores expression evaluation with a Rust-i
 
 ## Reach me
 
-- ✉️ [Email](mailto:karttikeyasinha11@gmail.com)
-- 📝 [LinkedIn](https://www.linkedin.com/in/karttikeya-sinha-247021358)
-- 📸 [Instagram](https://www.instagram.com/aero_zeppelin._)
+- [Email](mailto:karttikeyasinha11@gmail.com)
+- [LinkedIn](https://www.linkedin.com/in/karttikeya-sinha-247021358)
+- [Instagram](https://www.instagram.com/aero_zeppelin._)
