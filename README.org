@@ -1,17 +1,17 @@
 #+TITLE: biscuitrescue
 
-I'm Karttikeya, a Computer Engineering undergrad at Thapar University.
+Hey, I'm Karttikeya, a Computer Engineering undergrad at Thapar University.
 
 I spend my time below the application layer: compilers, filesystems, and the tooling that decides who gets access to what. If something is usually treated as a black box, I tend to rebuild it from scratch to see how it works.
 
-Currently contributing to [[https://github.com/rust-lang/rust][=rust-lang/rust=]] and [[https://github.com/rust-lang/cargo][=rust-lang/cargo=]]. Nix and Emacs for everything else.
+Currently contributing to [[https://github.com/rust-lang/rust][=rust-lang/rust=]] and [[https://github.com/rust-lang/cargo][=rust-lang/cargo=]]. Worked on Reproducible Builds for Rust during GSoC 2025. Nix and nvim for everything else.
 
 -----
 
 * Projects
 
 ** [[https://github.com/biscuitrescue/kronos][Kronos]]
-[[https://img.shields.io/badge/-Zig-F7A41D?logo=zig&logoColor=black]]
+[[https://img.shields.io/badge/-Zig-F7A41D?logo=zig&logoColor=black&.svg]]
 
 *A deterministic filesystem time-machine and data debugger, written in Zig.*
 
@@ -25,7 +25,7 @@ Kronos treats a directory as a history you can move through, not just a current 
 The goal is a debugger for data, the way a normal debugger is for code.
 
 ** [[https://github.com/biscuitrescue/gatekeep][Gatekeep]]
-[[https://img.shields.io/badge/-Rust-black?logo=rust&logoColor=white]]
+[[https://img.shields.io/badge/-Rust-black?logo=rust&logoColor=white&.svg]]
 
 *GitHub-style access control for SSH servers, built from scratch in Rust.*
 
@@ -37,7 +37,7 @@ Managing =authorized_keys= by hand across servers does not scale and leaves no a
 - *Privilege separation:* designed around the idea that a daemon touching auth files should have as little power as possible.
 
 ** [[https://github.com/biscuitrescue/drag][drag]]
-[[https://img.shields.io/badge/-C++-blue?logo=c%2B%2B&logoColor=white]] [[https://img.shields.io/badge/-Compiler-lightgrey]]
+[[https://img.shields.io/badge/-C++-blue?logo=c%2B%2B&logoColor=white&.svg]] [[https://img.shields.io/badge/-Compiler-lightgrey.svg]]
 
 *A toy compiler and interpreter with a Rust-inspired syntax, written in C++.*
 
@@ -53,13 +53,14 @@ drag started as a way to understand the full pipeline from source text to execut
 
 - *[[https://github.com/rust-lang/rust][rust-lang/rust]]:* merged PRs to the compiler.
 - *[[https://github.com/rust-lang/cargo][rust-lang/cargo]]:* issue and PR work.
+- *GSoC 2025, Reproducible Builds:* investigated SVH (Strict Version Hash) stability in rustc to make builds reproducible.
 
 -----
 
 * Tech Stack
 
 *Languages:*
-[[https://img.shields.io/badge/-Rust-black?logo=rust&logoColor=white]] [[https://img.shields.io/badge/-C++-blue?logo=c%2B%2B&logoColor=white]] [[https://img.shields.io/badge/-Zig-F7A41D?logo=zig&logoColor=black]] [[https://img.shields.io/badge/-Python-yellow?logo=python&logoColor=white]]
+[[https://img.shields.io/badge/-Rust-black?logo=rust&logoColor=white&.svg]] [[https://img.shields.io/badge/-C++-blue?logo=c%2B%2B&logoColor=white&.svg]] [[https://img.shields.io/badge/-Zig-F7A41D?logo=zig&logoColor=black&.svg]] [[https://img.shields.io/badge/-Python-yellow?logo=python&logoColor=white&.svg]]
 
 *Focus Areas:*
 =Systems Programming= • =Compiler Theory= • =Cybersecurity= • =DevOps= • =Versioned Infrastructure=
