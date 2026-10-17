@@ -1,43 +1,94 @@
-#+title: biscuitrescue
-#+description: GitHub README
+#+TITLE: biscuitrescue
 
-Computer Engineering student building things close to the metal: compilers, build systems, and low-level tooling.
+I'm Karttikeya, a Computer Engineering undergrad at Thapar University.
 
-* What I do
+I spend my time below the application layer: compilers, filesystems, and the tooling that decides who gets access to what. If something is usually treated as a black box, I tend to rebuild it from scratch to see how it works.
 
-- Systems programming and compilers
-- Contributor to [[https://github.com/rust-lang/rust][=rust-lang/rust=]] (merged PRs) and [[https://github.com/rust-lang/cargo][=rust-lang/cargo=]]
-- GSoC 2025: Reproducible Builds for Rust (SVH stability investigation)
-- Working at [[https://shipd.ai][Shipd]], with QEMU and UEFI environments
-- B.Tech Computer Engineering at Thapar University (2023--2027)
+Currently contributing to [[https://github.com/rust-lang/rust][=rust-lang/rust=]] and [[https://github.com/rust-lang/cargo][=rust-lang/cargo=]]. Nix and Emacs for everything else.
+
+-----
 
 * Projects
 
-| Project                   | Description                                                      |
-|---------------------------+------------------------------------------------------------------|
-| *drag*                    | A self-built compiler in C++ targeting LLVM                      |
-| *dotfiles / Emacs config* | Emacs as a full environment: org-mode, EXWM, performance tuning  |
+** [[https://github.com/biscuitrescue/kronos][Kronos]]
+[[https://img.shields.io/badge/-Zig-F7A41D?logo=zig&logoColor=black]]
 
-* Highlights
+*A deterministic filesystem time-machine and data debugger, written in Zig.*
 
-- Winner, Smart India Hackathon 2025 (Software Edition), as team lead
-- President, SUR, the Thapar University music society
-- Open-source mentorship programs: GSoC, LFX
+Kronos treats a directory as a history you can move through, not just a current state. Files are split with Content-Defined Chunking, so a small edit changes only the chunks around it instead of the whole file. Chunks and directory snapshots are stored in a Merkle-DAG, which makes every state content-addressed, verifiable, and cheap to keep.
 
-* Tech
+- *Infinite undo:* step back to any recorded state of the tree, not just the last save.
+- *Data provenance:* trace which snapshot a given piece of data came from and how it changed.
+- *Deterministic by design:* the same input always produces the same hashes, so histories can be compared and verified.
+- *Deduplication:* identical chunks across files and versions are stored once.
 
-[[https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white]]
-[[https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white]]
-[[https://img.shields.io/badge/LLVM-262D3A?style=flat&logo=llvm&logoColor=white]]
-[[https://img.shields.io/badge/Emacs-7F5AB6?style=flat&logo=gnuemacs&logoColor=white]]
-[[https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black]]
-[[https://img.shields.io/badge/QEMU-FF6600?style=flat&logo=qemu&logoColor=white]]
+The goal is a debugger for data, the way a normal debugger is for code.
 
-* Stats
+** [[https://github.com/biscuitrescue/gatekeep][Gatekeep]]
+[[https://img.shields.io/badge/-Rust-black?logo=rust&logoColor=white]]
 
-[[https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&hide_border=true]]
+*GitHub-style access control for SSH servers, built from scratch in Rust.*
+
+Managing =authorized_keys= by hand across servers does not scale and leaves no audit trail. Gatekeep moves that into a declarative workflow: you describe who can access what in TOML, track every change in Git, and let a daemon apply it.
+
+- *Declarative config:* access rules live in TOML files instead of ad-hoc edits on each host.
+- *Git-backed history:* every grant and revocation is a commit, so changes are reviewable and reversible.
+- *Sync daemon:* a secure daemon keeps servers in line with the repository.
+- *Privilege separation:* designed around the idea that a daemon touching auth files should have as little power as possible.
+
+** [[https://github.com/biscuitrescue/drag][drag]]
+[[https://img.shields.io/badge/-C++-blue?logo=c%2B%2B&logoColor=white]] [[https://img.shields.io/badge/-Compiler-lightgrey]]
+
+*A toy compiler and interpreter with a Rust-inspired syntax, written in C++.*
+
+drag started as a way to understand the full pipeline from source text to execution: lexing, parsing, building an AST, and evaluating or lowering it. It explores expression evaluation with a syntax borrowed from Rust, and has grown into an LLVM-targeting compiler.
+
+- *Front end:* hand-written lexer and parser for a Rust-flavoured language.
+- *Two execution paths:* interpret the AST directly, or compile it.
+- *LLVM backend:* code generation through LLVM, which is also where I learn how real compilers optimise.
+
+-----
+
+* Open Source
+
+- *[[https://github.com/rust-lang/rust][rust-lang/rust]]:* merged PRs to the compiler.
+- *[[https://github.com/rust-lang/cargo][rust-lang/cargo]]:* issue and PR work.
+
+-----
+
+* Tech Stack
+
+*Languages:*
+[[https://img.shields.io/badge/-Rust-black?logo=rust&logoColor=white]] [[https://img.shields.io/badge/-C++-blue?logo=c%2B%2B&logoColor=white]] [[https://img.shields.io/badge/-Zig-F7A41D?logo=zig&logoColor=black]] [[https://img.shields.io/badge/-Python-yellow?logo=python&logoColor=white]]
+
+*Focus Areas:*
+=Systems Programming= • =Compiler Theory= • =Cybersecurity= • =DevOps= • =Versioned Infrastructure=
+
+-----
+
+* GitHub Stats
+
+#+begin_export html
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=biscuitrescue&show_icons=true&bg_color=161b17&title_color=8eb173&text_color=e1e2d1&icon_color=8eb173&hide_border=true" width="32%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=biscuitrescue&background=161b17&fire=e1e2d1&ring=8eb173&currStreakNum=e1e2d1&sideLabels=8eb173&hide_border=true" width="32%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=biscuitrescue&layout=compact&bg_color=161b17&title_color=8eb173&text_color=e1e2d1&hide_border=true&exclude_repo=dotfiles,wallpapers,fonts" width="32%" />
+</p>
+#+end_export
+
+-----
+
+* Currently learning
+
+- Writing secure system daemons and privilege separation
+- How real compilers optimise code
+- Designing portable tools for infrastructure and config validation
+- Rewriting tooling and workflows from scratch in Rust, just to understand them better
+
+-----
 
 * Reach me
 
-- GitHub: [[https://github.com/YOUR_USERNAME][@YOUR_USERNAME]]
-- Email / LinkedIn: /add yours/
+- [[mailto:karttikeyasinha11@gmail.com][Email]]
+- [[https://www.linkedin.com/in/karttikeya-sinha-247021358][LinkedIn]]
+- [[https://www.instagram.com/aero_zeppelin._][Instagram]]
